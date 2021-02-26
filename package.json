@@ -1,16 +1,26 @@
 {
-  "name": "root",
-  "private": true,
-  "devDependencies": {
-    "husky": "4.2.5",
-    "prettier": "2.0.5",
-    "pretty-quick": "3.0.0",
-    "lerna": "^3.22.1"
+  "name": "themenic",
+  "version": "1.0.3",
+  "main": "dist/index.js",
+  "module": "dist/theme.esm.js",
+  "types": "dist/index.d.ts",
+  "description": "@paljs/theme package for @paljs/ui package",
+  "repository": "https://github.com/nickortiz-portfolio/ui.git",
+  "author": "Ahmed Elywa  <hello@paljs.com> (https://github.com/paljs/ui)",
+  "license": "MIT",
+  "scripts": {
+    "test": "cross-env CI=1 react-scripts test --env=jsdom",
+    "test:watch": "react-scripts test --env=jsdom",
+    "build": "tsdx build --transpileOnly",
+    "prepack": "yarn build",
+    "start": "tsdx watch"
   },
-  "workspaces": ["packages/*"],
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --pattern \"**/*.*(js|jsx|tsx|ts)\" --staged"
-    }
-  }
+  "files": [
+    "dist"
+  ],
+  "bugs": {
+    "url": "https://github.com/paljs/ui",
+    "email": "hello@paljs.com"
+  },
+  "homepage": "https://github.com/paljs/ui"
 }
