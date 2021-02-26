@@ -1,11 +1,11 @@
 {
-  "name": "@paljs/icons",
+  "name": "paljs/icons",
   "version": "1.0.5",
   "description": "@paljs/icons package for @paljs/ui package",
   "main": "dist/index.js",
   "module": "dist/icons.esm.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/paljs/ui.git",
+  "repository": "https://github.com/nickortiz-portfolio/ui.git",
   "author": "Ahmed Elywa  <hello@paljs.com> (https://github.com/paljs/ui)",
   "license": "MIT",
   "scripts": {

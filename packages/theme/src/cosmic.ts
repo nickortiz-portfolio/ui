@@ -7,11 +7,11 @@
 import { ThemeObject } from "./themeTypes";
 
 const cosmic: Partial<ThemeObject> = {
-  colorPrimary100: "#faf7ff",
+  colorPrimary100: "#000000", //faf7ff
   colorPrimary200: "#ece3ff",
   colorPrimary300: "#d5bfff",
   colorPrimary400: "#b18aff",
-  colorPrimary500: "#a16eff",
+  colorPrimary500: "#000000", //a16eff
   colorPrimary600: "#7b51db",
   colorPrimary700: "#5a37b8",
   colorPrimary800: "#3e2494",

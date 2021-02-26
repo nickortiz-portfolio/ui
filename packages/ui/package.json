@@ -1,11 +1,11 @@
 {
-  "name": "@paljs/ui",
+  "name": "paljs/ui",
   "version": "1.1.1",
   "description": "React Styled Components with bootstrap grid system",
   "main": "index.js",
   "module": "./esm/index.js",
   "types": "index.d.ts",
-  "repository": "https://github.com/paljs/ui.git",
+  "repository": "https://github.com/nickortiz-portfolio/ui.git",
   "author": "Ahmed Elywa",
   "license": "MIT",
   "engines": {

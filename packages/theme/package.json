@@ -1,11 +1,11 @@
 {
-  "name": "@paljs/theme",
+  "name": "paljs/theme",
   "version": "1.0.3",
   "main": "dist/index.js",
   "module": "dist/theme.esm.js",
   "types": "dist/index.d.ts",
   "description": "@paljs/theme package for @paljs/ui package",
-  "repository": "https://github.com/paljs/ui.git",
+  "repository": "https://github.com/nickortiz-portfolio/ui.git",
   "author": "Ahmed Elywa  <hello@paljs.com> (https://github.com/paljs/ui)",
   "license": "MIT",
   "scripts": {
